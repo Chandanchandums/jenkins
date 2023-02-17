@@ -17,8 +17,8 @@ pipeline {
             }
         }
     }
-    post{
-      failure{
+    post {
+      failure {
           echo 'pipeline failed'
       }
     }
